@@ -1,6 +1,5 @@
 class Solution {
     public String solution(String[] seoul) {
-        String answer = "";
         int ansNum = 0;
         
         for(int x = 0; x < seoul.length; x++) {
@@ -10,8 +9,7 @@ class Solution {
             }
         }
         
-        answer = "김서방은 " + ansNum + "에 있다";
+        return "김서방은 " + ansNum + "에 있다";
         
-        return answer;
     }
 }
