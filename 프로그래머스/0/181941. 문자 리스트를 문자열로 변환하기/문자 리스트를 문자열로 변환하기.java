@@ -3,13 +3,9 @@ import java.util.*;
 class Solution {
     public String solution(String[] arr) {
         String answer = "";
-        StringBuilder sb = new StringBuilder();
         
-        for(int i = 0; i < arr.length; i++) {
-            sb.append(arr[i]);
-        }
-        
-        answer = sb.toString();
+        answer = String.join("", arr);
+        // String.join("추가할 문자", 대상 배열)
         
         return answer;
     }
