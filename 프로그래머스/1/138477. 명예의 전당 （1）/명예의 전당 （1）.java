@@ -4,7 +4,6 @@ class Solution {
     public int[] solution(int k, int[] score) {
         int[] answer = new int[score.length];
         List<Integer> kList = new ArrayList<>();
-        int[] kArr = new int[score.length];
         
         for(int i = 0; i < score.length; i++) {
             kList.add(score[i]);
